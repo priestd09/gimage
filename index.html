@@ -1,31 +1,29 @@
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gimage by quintana-dev</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <title>Gimage by joseluisq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="js/respond.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
+    <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/quintana-dev/gimage">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/quintana-dev/gimage/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/quintana-dev/gimage/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+
+    <!-- github-ribbon -->
+    <a href="https://github.com/quintana-dev/gimage" target="_blank" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#e8e8e8; color:#2a2a29; position: fixed; top: 0; border: 0; right: 0; z-index:1;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9, 116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <!-- //github-ribbon -->
 
     <div class="wrapper">
 
@@ -33,30 +31,24 @@
         <div id="title">
           <h1>Gimage</h1>
           <p>A simple PHP library for easy image handling.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/quintana-dev">quintana-dev</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+
+          <div class="badges">
+            <a href="https://travis-ci.org/quintana-dev/gimage"><img src="https://travis-ci.org/quintana-dev/gimage.svg?branch=master" alt="Build Status"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/version" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/joseluisq/gimage">
+              <img src="https://poser.pugx.org/joseluisq/gimage/downloads" alt="Total Downloads"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/license"  alt="License"></a>
+          </div>
         </div>
 
-        <h1>
-<a id="gimage" class="anchor" href="#gimage" aria-hidden="true"><span class="octicon octicon-link"></span></a>GImage</h1>
-
-<p><a href="https://travis-ci.org/quintana-dev/gimage"><img src="https://travis-ci.org/quintana-dev/gimage.svg?branch=master" alt="Build Status"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/version" alt="Latest Stable Version"></a> <a href="//packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/v/unstable" alt="Latest Unstable Version"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/downloads" alt="Total Downloads"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/license" alt="License"></a></p>
-
-<blockquote>
-<p>A simple PHP library for easy image handling.</p>
-</blockquote>
 
 <p>GImage is a simple extended library based on <a href="http://php.net/manual/en/book.image.php">PHP Image Processing and GD</a> for easy image handling. With GImage you can read, create, crop, resize, rotate, embed text, merge and save your JPG or PNG images easy. GImage require <strong>PHP 5.3</strong> or higher and <a href="http://php.net/manual/en/book.image.php">GD Extension</a>.</p>
 
-<p><img src="https://cloud.githubusercontent.com/assets/1700322/11167177/21e9f6ca-8b25-11e5-8737-c50a48506f17.png" alt="A simple presentation card with GImage"></p>
-
-<p><a href="#creating-a-simple-presentation-card"><em>View sample code</em></a></p>
+<p class="text-center"><img src="https://cloud.githubusercontent.com/assets/1700322/11167177/21e9f6ca-8b25-11e5-8737-c50a48506f17.png" alt="A simple presentation card with GImage"></p>
 
 <h2>
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
 <div class="highlight highlight-source-shell"><pre>$ composer require joseluisq/gimage</pre></div>
+
+<p>Or download <a href="https://github.com/quintana-dev/gimage/zipball/master">zip</a> or <a href="https://github.com/quintana-dev/gimage/tarball/master">tar</a> file.</p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
@@ -185,6 +177,11 @@
 <span class="pl-s1"><span class="pl-smi">$canvas</span><span class="pl-k">-&gt;</span>save(<span class="pl-s"><span class="pl-pds">'</span>card.png<span class="pl-pds">'</span></span>);</span></pre></div>
 
 <h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Read <a href="api">API Documentation</a></p>
+
+<h2>
 <a id="contribution" class="anchor" href="#contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribution</h2>
 
 <p>If you would like to contribute <a href="https://github.com/quintana-dev/gimage/pulls">pull requests</a> and <a href="https://github.com/quintana-dev/gimage/issues">issues</a> will be welcome! Feature requests are welcome. Please before sending some feature requests make sure provide as much detail and context as possible.</p>
@@ -194,11 +191,23 @@
 
 <p>MIT license</p>
 
-<p>© 2015 <a href="http://quintana.io">José Luis Quintana</a></p>
+        <div class="info">
+          <hr>
+          <span class="credits left">
+            <span class="made-with-heart">
+              <span class="octicon octicon-pencil"></span> with <span class="octicon octicon-heart"></span> by <a href="https://github.com/joseluisq">joseluisq</a>
+            </span>
+          </span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
       </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
+
+
+
   </body>
 </html>
