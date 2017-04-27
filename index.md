@@ -209,10 +209,10 @@ $canvas
 	->save('./card.png');
 ```
 
-For more examples check out the [./examples](./examples) dir.
+For more examples check out the [./examples](https://github.com/joseluisq/gimage/tree/master/examples) directory.
 
 ## Changelog
-Check out the [CHANGELOG.md](./CHANGELOG.md) file.
+Check out the [CHANGELOG.md](https://github.com/joseluisq/gimage/blob/master/CHANGELOG.md) file.
 
 ## Documentation
 Read [API Documentation](./docs)
