@@ -1,0 +1,13 @@
+examples
+src
+tests
+vendor
+nbproject
+/*.json
+/*.md
+/*.lock
+/*.yml
+/*.xml
+.editorconfig
+Makefile
+.gitattributes

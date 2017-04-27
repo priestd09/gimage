@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>GImage - A simple PHP library for easy image handling.</title>
+    <title>GImage - A PHP library for easy image handling.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/github-dark.css">
@@ -30,7 +30,7 @@
       <section>
         <div id="title">
           <h1>GImage</h1>
-          <p>A simple PHP library for easy image handling.</p>
+          <p>A PHP library for easy image handling</p>
 
           <div class="badges">
             <a href="https://travis-ci.org/joseluisq/gimage"><img src="https://travis-ci.org/joseluisq/gimage.svg?branch=master" alt="Build Status"></a> <a href="https://packagist.org/packages/joseluisq/gimage"><img src="https://poser.pugx.org/joseluisq/gimage/version" alt="Latest Stable Version"></a> <a href="https://packagist.org/packages/joseluisq/gimage">
@@ -38,17 +38,33 @@
           </div>
         </div>
 
+      </p><b>GImage</b> is a simple extended library based on PHP Image Processing and GD for processing images without stress.</p>
 
-<p>GImage is a simple extended library based on <a href="http://php.net/manual/en/book.image.php">PHP Image Processing and GD</a> for easy image handling. With GImage you can read, create, crop, resize, rotate, embed text, merge and save your JPG or PNG images easy. GImage require <strong>PHP 5.3</strong> or higher and <a href="http://php.net/manual/en/book.image.php">GD Extension</a>.</p>
+      <p class="text-center"><img src="https://cloud.githubusercontent.com/assets/1700322/11167177/21e9f6ca-8b25-11e5-8737-c50a48506f17.png" alt="A simple presentation card using GImage"></p>
 
-<p class="text-center"><img src="https://cloud.githubusercontent.com/assets/1700322/11167177/21e9f6ca-8b25-11e5-8737-c50a48506f17.png" alt="A simple presentation card with GImage"></p>
+        <h2>
+          <a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+
+      <ul>
+        <li>Load an image from local path or URL.</li>
+        <li>Create shapes such as rectangles or ellipses with opacity.</li>
+        <li>Resize or scale images proportionally.</li>
+        <li>Crop images proportionally.</li>
+        <li>Rotate images, shapes or texts.</li>
+        <li>Embed text with custom TTF fonts.</li>
+        <li>Compose a pool of images with Canvas.</li>
+        <li>Swap image formats such as JPEG, PNG and GIF.</li>
+        <li>Save images in local or output on the browser.</li>
+        <li>Save several copies of the same image.</li>
+      </ul>
+
 
 <h2>
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
-<div class="highlight highlight-source-shell"><pre>$ composer require joseluisq/gimage</pre></div>
+<div class="highlight highlight-source-shell"><pre>composer require joseluisq/gimage</pre></div>
 
-<p>Or download <a href="https://github.com/quintana-dev/gimage/zipball/master">zip</a> or <a href="https://github.com/quintana-dev/gimage/tarball/master">tar</a> file.</p>
+<p>Or download <a href="https://github.com/joseluisq/gimage/zipball/master">zip</a> or <a href="https://github.com/joseluisq/gimage/tarball/master">tar</a> file.</p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
