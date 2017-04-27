@@ -1,1 +1,24 @@
 theme: jekyll-theme-midnight
+
+title: "GImage"
+show_downloads: true
+
+github:
+  owner_name: "joseluisq"
+  repository_url: "https://github.com/joseluisq/gimage"
+  zip_url: "http://github.com/joseluisq/gimage/zipball/gh-pages"
+  tar_url: "http://github.com/joseluisq/gimage/tarball/gh-pages"
+  repository_name: "GImage"
+
+exclude:
+  - examples
+  - src
+  - tests
+  - vendor
+  - nbproject
+  - "/*.json"
+  - "/*.lock"
+  - "/*.xml"
+  - ".editorconfig"
+  - Makefile
+  - ".gitattributes"
